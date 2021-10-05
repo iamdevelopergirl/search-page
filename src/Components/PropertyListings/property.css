@@ -1,0 +1,66 @@
+@font-face{
+    font-family: CrimsonText-Regular;
+    src: url(../../fonts/Poppins/Poppins-Regular.ttf) format('truetype');
+}
+
+@font-face{
+    font-family: CrimsonText-SemiBold;
+    src: url(../../fonts/Poppins/Poppins-SemiBold.ttf) format('truetype');
+}
+
+.listing-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    align-items: baseline;
+    margin: 5% 5%;
+    column-gap: 10%;
+    row-gap: calc(10vw + 2%);
+}
+
+.property-article{
+    display: flex;
+    flex-direction: column;
+    width: 370px;
+    height: 337px;
+    align-items: flex-start;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.property-image{
+    border-radius: 4%;
+}
+
+.property-name{
+    font-family: 'CrimsonText-SemiBold';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #24272E;
+    text-align: left;
+}
+
+.property-name p,
+.property-price p{
+    margin-bottom: 0;
+    margin-top: 2%;
+}
+
+.property-price p{
+    font-family: 'CrimsonText-Regular';
+    font-size: 16px;
+    line-height: 22px;
+    color: #24272E;
+}
+
+.property-price span{
+    font-family: 'CrimsonText-Regular';
+    color: #575D64;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+@media only screen and (min-width: 64.0625em){
+    listing-container{
+        row-gap: 2%;
+    }
+}

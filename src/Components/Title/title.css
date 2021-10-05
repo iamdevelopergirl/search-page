@@ -1,0 +1,45 @@
+@font-face{
+    font-family: CrimsonText-Regular;
+    src: url(../../fonts/Poppins/Poppins-Regular.ttf) format('truetype');
+}
+
+@font-face{
+    font-family: CrimsonText-Bold;
+    src: url(../../fonts/Poppins/Poppins-Bold.ttf) format('truetype');
+}
+
+.title-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.title{
+    font-family: 'CrimsonText-Bold';
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.number-search{
+    font-family: 'CrimsonText-Regular';
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.title p,
+.number-search p {
+    margin: auto;
+}
+
+.reload-button {
+    margin-top: 8%;
+}

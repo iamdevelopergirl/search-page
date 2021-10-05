@@ -1,0 +1,25 @@
+.button-component{
+    border: 1px solid #3333332b;
+    padding: 10px 10px;
+    border-radius: 25px;
+    display: inline-block;
+    font-size: 13px;
+    line-height: 1;
+    transition: all 1s cubic-bezier(0.19, 1, 0.22, 1);
+    font-family: Menlo;
+}
+
+.black {
+    background-color:#EDF1F4;
+    color:#333333;
+    border-color: #3333332b;
+}
+
+button.black:hover{
+    background-color:rgb(255, 255, 255);
+    color :hsl(240, 93%, 71%);
+}
+
+button{
+    flex-grow: 1;
+}
