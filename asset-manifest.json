@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/search-page/static/css/main.8da056a0.chunk.css",
+    "main.js": "/search-page/static/js/main.90a7f2d9.chunk.js",
+    "main.js.map": "/search-page/static/js/main.90a7f2d9.chunk.js.map",
+    "runtime-main.js": "/search-page/static/js/runtime-main.dec16f2c.js",
+    "runtime-main.js.map": "/search-page/static/js/runtime-main.dec16f2c.js.map",
+    "static/js/2.815c1015.chunk.js": "/search-page/static/js/2.815c1015.chunk.js",
+    "static/js/2.815c1015.chunk.js.map": "/search-page/static/js/2.815c1015.chunk.js.map",
+    "index.html": "/search-page/index.html",
+    "static/css/main.8da056a0.chunk.css.map": "/search-page/static/css/main.8da056a0.chunk.css.map",
+    "static/js/2.815c1015.chunk.js.LICENSE.txt": "/search-page/static/js/2.815c1015.chunk.js.LICENSE.txt",
+    "static/media/title.css": "/search-page/static/media/Poppins-Regular.8081832f.ttf",
+    "static/media/property.css": "/search-page/static/media/Poppins-SemiBold.cce5625b.ttf",
+    "static/media/Wunderflats logo.53b2670c.svg": "/search-page/static/media/Wunderflats logo.53b2670c.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dec16f2c.js",
+    "static/js/2.815c1015.chunk.js",
+    "static/css/main.8da056a0.chunk.css",
+    "static/js/main.90a7f2d9.chunk.js"
+  ]
+}
